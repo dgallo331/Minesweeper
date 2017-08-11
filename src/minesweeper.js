@@ -35,5 +35,7 @@ const printBoard = board =>{
 }
 let playerBoard = generatePlayerBoard(3, 4);
 let bombBoard = generateBombBoard(3, 4, 5);
-console.log("Player Board: " + printBoard(playerBoard));
-console.log("Bomb Board: " + printBoard(bombBoard));
+console.log("Player Board: ");
+printBoard(playerBoard)
+console.log("Bomb Board: ");
+printBoard(bombBoard)
