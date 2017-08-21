@@ -13,7 +13,14 @@ class Game{
     }else if (this._board.hasSafeTiles()){
       return "Looks like you have won. Congratulations!!";
     }else{
-      return "Current Board: ", this._board.printBoard()
+      return "Current Board: " + this._board.printBoard()
     }
   }
 }
+
+//for a new game type
+// let g = new Game(numberOfRows, numberOfColumns, numberOfBombs)
+// to pick a tile
+//play move(rowIndex,columnIndex)
+// remember the numbers start at 0
+// when done run ".exit"
